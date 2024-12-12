@@ -327,7 +327,7 @@ PixelShader =
 				#if !defined( LOW_QUALITY_SHADERS ) && !defined( GUI_SHADER )
 					ApplyPollutionTrees( Diffuse, MapCoords );
 					ApplyDevastationTrees( Diffuse, MapCoords );
-					ApplyHarvestConditionTree( Diffuse, Input.UV0, MapCoords, Input.WorldSpacePos.xz );
+					ApplyHarvestConditionTree( Diffuse, Input.UV0, MapCoords, Input.WorldSpacePos );
 				#endif
 
 				// Color overlay, pre light

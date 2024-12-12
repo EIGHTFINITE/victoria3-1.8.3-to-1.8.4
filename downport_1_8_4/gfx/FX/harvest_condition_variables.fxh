@@ -9,14 +9,17 @@ Code
 		#define TORRENTIAL_RAINS_INDEX 5
 		#define HAIL_INDEX 6
 		#define EXTREME_WINDS_INDEX 7
+		#define LOCUST_SWARM_INDEX 8
+		#define HEATWAVE_INDEX 9
+		#define DISEASE_OUTBREAK_INDEX 10
 
 
 		// General
-		#define OpacityLowImpactValue				1.5
-		#define OpacityHighImpactValue				7.5
-		#define HarvestConditionOverlayAlpha 		1.0 	// Strength of the whole overlay
+		#define OpacityLowImpactValue				2.0
+		#define OpacityHighImpactValue				6.0
 
 		// Fade transition states
+		#define HarvestConditionOverlayAlpha 		1.0 	// Strength of the whole overlay
 		#define HarvestConditionFadeStateNone		0	// Normal color
 		#define HarvestConditionFadeStateFaded 		1	// Transparent
 		#define HarvestConditionFadeStateFadingIn 	2	// Becomes opaque
@@ -33,17 +36,17 @@ Code
 		#define DroughtCracksOverlayColor 			float3( 0.742, 0.461, 0.203 )
 
 		#define DroughtColorMaskPositionFrom 		1.0
-		#define DroughtColorMaskContrastFrom 		0.1
+		#define DroughtColorMaskContrastFrom 		0.4
 		#define DroughtColorMaskPositionTo 			0.0
 		#define DroughtColorMaskContrastTo 			0.0
 
 		#define DroughtDryTexureIndex				5
 		#define DroughtDryMaskUvTiling				9
 
-		#define DroughtDryMaskPositionFrom 			1.05
-		#define DroughtDryMaskContrastFrom 			0.455
-		#define DroughtDryMaskPositionTo 			0.85
-		#define DroughtDryMaskContrastTo 			1.205
+		#define DroughtDryMaskPositionFrom 			1.0
+		#define DroughtDryMaskContrastFrom 			0.5
+		#define DroughtDryMaskPositionTo 			1.1
+		#define DroughtDryMaskContrastTo 			2.0
 
 		#define DroughtCracksTexureIndex			13
 		#define DroughtCrackedTextureUvTiling		2
@@ -113,19 +116,34 @@ Code
 		#define HailTextureWeight				0.85
 
 		// Wildfire
-		#define WildfireLowImpactValue						1.5
-		#define WildfireHighImpactValue						7.5
+		#define WildfireLowImpactValue				1.5
+		#define WildfireHighImpactValue				7.5
 
-		#define WildfireBurntMaskUvTiling					14.0
-		#define WildfireBurntMaskContrast					0.05
-		#define WildfireBurntMaskMultiplier					0.5
+		#define WildfireBurntMaskUvTiling			14.0
+		#define WildfireBurntMaskContrast			0.05
+		#define WildfireBurntMaskMultiplier			0.5
 
-		#define WildfireFireInnerMaskSize					0.04
-		#define WildfireFireTerrainBlendContrast			4.0
+		#define WildfireFireInnerMaskSize			0.04
+		#define WildfireFireTerrainBlendContrast	4.0
 
 		// Extreme Winds
 		#define ExtremeWindsLowImpactValue		0.5
 		#define ExtremeWindsHighImpactValue		3.5
 		#define ExtremeWindSwaySpeed			4.0
-		#define ExtremeWindSwayScale			2.5
+		#define ExtremeWindSwayScale			2.0
+
+		// Locust swarm
+		#define LocustSwarmLowImpactValue		1.5
+		#define LocustSwarmHighImpactValue		6.0
+		#define LocustSwarmOverlayColor 		float3( 0.755, 0.470, 0.267 )
+
+		// Heatwave
+		#define HeatwaveLowImpactValue			2.0
+		#define HeatwaveHighImpactValue			4.0
+		#define HeatwaveOverlayColor 			float3( 0.798, 0.357, 0.124 )
+
+		// Disease Outbreak
+		#define DiseaseOutbreakLowImpactValue	3.0
+		#define DiseaseOutbreakHighImpactValue	7.0
+		#define DiseaseOverlayColor 			float3( 0.490, 0.507, 0.412 )
 ]]
