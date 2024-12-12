@@ -1,0 +1,12 @@
+{
+  "name" : "downport_1_8_4",
+  "id" : "",
+  "version" : "1.0",
+  "supported_game_version" : "1.8.3",
+  "short_description" : "",
+  "tags" : ["Balance","Expansion","Fixes","Translation","Utilities"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
