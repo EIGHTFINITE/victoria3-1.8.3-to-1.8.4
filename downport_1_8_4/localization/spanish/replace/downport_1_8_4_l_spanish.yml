@@ -1,0 +1,4 @@
+﻿l_spanish:
+ TOOLTIP_CANCEL_LAW: "#header Dejar de promulgar [Law.GetName]#!\nPerderás todo el progreso.[ConcatIfNeitherEmpty('\n',Law.PredictRadicalismChangesFromCancellationDesc)]"
+ TOOLTIP_CANCEL_LAW_DISALLOWED: "#header No se puede dejar de promulgar [Law.GetName]#!\n$COMMAND_DESC$"
+ TOOLTIP_ENACT_COMMON: "[JoinText('\n\n', Law.GetReplacedLawEffect, JoinText('\n\n', Law.PredictLegitimacyChangeToEnactDesc, Law.PredictApprovalChangesDuringEnactmentDesc))][ConcatIfNeitherEmpty('\n',Law.PredictRadicalismChangesFromEnactmentDesc)][ConcatIfNeitherEmpty('\n\n',Law.PredictMovementLoyalistsFromEnactmentDesc)]"

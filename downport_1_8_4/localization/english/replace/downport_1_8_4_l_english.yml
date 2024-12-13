@@ -1,0 +1,4 @@
+﻿l_english:
+ TOOLTIP_CANCEL_LAW:0 "#header Cease Enacting [Law.GetName]#!\nYou will lose all progress.[ConcatIfNeitherEmpty('\n',Law.PredictRadicalismChangesFromCancellationDesc)]"
+ TOOLTIP_CANCEL_LAW_DISALLOWED: "#header Cannot Cease Enacting [Law.GetName]#!\n$COMMAND_DESC$"
+ TOOLTIP_ENACT_COMMON: "[JoinText('\n\n', Law.GetReplacedLawEffect, JoinText('\n\n', Law.PredictLegitimacyChangeToEnactDesc, Law.PredictApprovalChangesDuringEnactmentDesc))][ConcatIfNeitherEmpty('\n',Law.PredictRadicalismChangesFromEnactmentDesc)][ConcatIfNeitherEmpty('\n\n',Law.PredictMovementLoyalistsFromEnactmentDesc)]"

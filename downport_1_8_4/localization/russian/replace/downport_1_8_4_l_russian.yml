@@ -1,0 +1,4 @@
+﻿l_russian:
+ TOOLTIP_CANCEL_LAW: "#header Прекратить принятие закона «[Law.GetName]»#!\nВы потеряете весь прогресс.[ConcatIfNeitherEmpty('\n',Law.PredictRadicalismChangesFromCancellationDesc)]"
+ TOOLTIP_CANCEL_LAW_DISALLOWED: "#header Нельзя прекратить принятие закона «[Law.GetName]»#!\n$COMMAND_DESC$"
+ TOOLTIP_ENACT_COMMON: "[JoinText('\n\n', Law.GetReplacedLawEffect, JoinText('\n\n', Law.PredictLegitimacyChangeToEnactDesc, Law.PredictApprovalChangesDuringEnactmentDesc))][ConcatIfNeitherEmpty('\n',Law.PredictRadicalismChangesFromEnactmentDesc)][ConcatIfNeitherEmpty('\n\n',Law.PredictMovementLoyalistsFromEnactmentDesc)]"

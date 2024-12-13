@@ -1,0 +1,4 @@
+﻿l_polish:
+ TOOLTIP_CANCEL_LAW: "#header Przerwij proces ustanawiania następującego prawa: [Law.GetName|l]#!\nUtracisz cały postęp.[ConcatIfNeitherEmpty('\n',Law.PredictRadicalismChangesFromCancellationDesc)]"
+ TOOLTIP_CANCEL_LAW_DISALLOWED: "#header Nie można przerwać procesu ustanawiania prawa o nazwie [Law.GetName|l]#!\n$COMMAND_DESC$"
+ TOOLTIP_ENACT_COMMON: "[JoinText('\n\n', Law.GetReplacedLawEffect, JoinText('\n\n', Law.PredictLegitimacyChangeToEnactDesc, Law.PredictApprovalChangesDuringEnactmentDesc))][ConcatIfNeitherEmpty('\n',Law.PredictRadicalismChangesFromEnactmentDesc)][ConcatIfNeitherEmpty('\n\n',Law.PredictMovementLoyalistsFromEnactmentDesc)]"
