@@ -39,7 +39,10 @@
 			}
 			country_rank < rank_value:unrecognized_major_power
 		}
-		NOT = { THIS = c:TUR }
+		NAND = {
+			exists = c:TUR
+			THIS = c:TUR
+		}
 	}
 
 	complete = {
